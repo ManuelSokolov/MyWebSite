@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" id="style" href="CSS/style.css">
+    <script type="text/javascript" src="JS/script.js"></script>
+    
+    <title> Manuel Sokolov</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="index.html" id="my-name">Manuel Sokolov</a></a></li>
+                <li id = "projects"><a href="projects.html" id ="projects_on">Projects</a></li>
+                <li id = "about me"><a href="aboutme.html">About Me</a></li>             
+                <li id = "contacts"><a href="contact.html" >Contacts</a></li>
+            </ul>
+          
+        </nav>
+       
+        
+        
+    </header>
+
+    <div id = mineAndContributed>
+        <button class = "buttonProjects" id="projectsActive" onclick="showMine()" >
+            Mine
+        </button>
+        <button class = "buttonProjects" id="inactive" onclick="showContributed()">
+            Contributed
+        </button> 
+    </div>
+
+    <div id = "mine" style="visibility: visible;">
+        <div class = "grid-container">
+            <div class ="grid-item-project">
+                <h2 id = "projectTitle"> My website</h2>
+                    <div id ="textProject">
+                    <p> Description: </p> <p></p> <p>This website is my first own project, the beginning of my carreer as a 
+                        software developer. It contains my biography, my story as a developer, and my projects done througth out 
+                        my student life. 
+                        
+                    </p>
+                    <p>
+                        Languages: HTML, CSS, Javascript
+                    </p>
+                    <br>
+                    </div>
+                    <div id = "code">
+                        <button class="button to link">See The Code</button>
+                    </div>
+            </div>
+            
+            
+        </div>
+
+
+
+
+
+    </div>
+
+    <div id ="contributed" style="visibility: hidden;">
+        
+        <div class = "grid-container2">
+            <div class ="grid-item-project">
+                <h2 id = "projectTitle"> Too Yummy To Go</h2>
+                    <div id ="textProject">
+                    <p> Description:</p> <p></p> <p>Food application where Merchants can 
+                        sell their wasted food that is not sold througth out the day with the goal
+                        of preventing unecessary waste . 
+                        This project was carried out within the scope of the "Object Oriented Development" course of my 
+                        university.
+                                      
+                    </p>
+                    <p> Languages: Java</p>
+                </div>
+                <div id ="code">
+                    <button class="button to link" onclick="location.href='https://github.com/ManuelSokolov/TooYummyTogo'" type="button">See The Code</button>
+                </div>
+            </div>
+            
+            <div class ="grid-item-project">
+                <h2 id = "projectTitle"> Diario Corona</h2>
+                    <div id = "textProject">
+                    <p> Description:</p> <p></p> <p> Application designed to read news about the COVID-19 by Country 
+                        allowing to viewer to filter negative news. It can be configured to receive notifications to read
+                        the news of user's favourite countries at a choosen hour of the day.
+                        This project was carried out within the scope of the "Human Machine Interface" course of my 
+                        university.
+                                      
+                    </p>
+                    <p> Languages: Html CSS Javascript</p>
+                </div>
+                <div id ="code">
+                    <button class="button to link" onclick="location.href='https://github.com/ManuelSokolov/DiarioCorona'" type="button">See The Code</button>
+                    </div>
+            </div>
+        </div>  
+       
+    </div>
+   
+
+    
+    <footer>
+       
+    </footer>
+  
+  
+</body>
+
+</html>

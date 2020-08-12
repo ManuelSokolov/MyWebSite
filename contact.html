@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" id="style" href="CSS/style.css">
+    <script type="text/javascript" src="JS/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title> Manuel Sokolov</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="index.html" id="my-name">Manuel Sokolov</a></a></li> 
+                <li id = "projects"><a href="projects.html">Projects</a></li>
+                <li id = "about me"><a href="aboutme.html">About Me</a></li>
+                <li id = "contacts"><a href="mailto:manuelsokolov@gmail.com" id="contactsOn"></i>Contacts</a></li>
+            </ul>
+          
+        </nav>
+        
+        
+        
+    </header>
+   
+
+
+	<div class="main">
+		<div class="info">Contact me!</div>
+		<form action="mail_handler.php" method="post" name="form" class="form-box">
+			<label for="name">Name</label><br>
+			<input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
+			<label for="email">Email ID</label><br>
+			<input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
+			<label for="message">Message</label><br>
+			<textarea name="msg" class="msg-box" placeholder="Enter Your Message Here..." required></textarea><br>
+			<input type="submit" name="submit" value="Send" class="sub-btn">
+		</form>
+	</div>
+
+
+     
+
+
+
+    <footer>
+        
+    </footer>
+  
+  
+</body>
+
+</html>

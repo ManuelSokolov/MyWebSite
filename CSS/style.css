@@ -1,0 +1,638 @@
+header {
+
+    background-color: #11afb4;
+	color: white;
+    margin: 0;
+    max-height: 100px;
+     
+}
+body{
+    background-color: rgba(199, 193, 193, 0.2);
+    
+}
+
+header h1 {
+   
+  margin:0;
+    
+}
+
+
+
+
+.bigger { font-size:250%; }
+
+
+
+/* NAVIGATION  melhorar esta parte*/
+
+nav {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    padding-top: 0;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(252, 252, 252);
+    margin-left: 50px;
+    
+    
+   
+
+
+}
+
+nav li {
+    display: inline;
+    padding: 17px;
+    
+    
+    
+}
+
+#my-name {
+    font-size: 35px;
+    margin-right: 550px;
+}
+
+nav ul {
+    margin-bottom: 0;
+   
+}
+
+nav a:hover {
+    color:black;
+}
+
+
+
+
+
+nav i {
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+
+/*LEFT BLOCK*/
+
+#left-block {
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+#img-profile {
+    border-radius: 50%;
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    border: solid rgb(255, 250, 250);
+    margin-left: 200px;
+    margin-top:150px;
+}
+
+/* rigth block */
+
+#right-block {
+    width: 50%;
+    float: right;
+    height: 500px;
+}
+#text p {
+    font-size: 25px;
+}
+
+
+#text {
+    margin-top: 300px;
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+
+
+
+.images-container {
+    float: right;
+    padding: 15px;
+ }
+ 
+
+
+ .links{
+    height: 90px;
+    width: 90px;
+    transition: transform .2s;
+    margin-left: 7px;
+
+ }
+
+ .links:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+
+/* Projects */
+
+
+ #projects_on{
+
+    font-weight: bolder;
+    font-size: x-large;
+
+ }
+
+ #about_me_on{
+    font-weight: bolder;
+    font-size: x-large;
+
+ }
+
+/*Buttons*/
+
+#mineAndContributed{
+  left:40%;
+  position: absolute;
+
+}
+
+.buttonProjects{
+    background-color:rgba(199, 193, 193, 0.2);
+    border: 2px solid  #11afb4;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+   /* border-radius: 22px; */
+
+}
+/* remover ativo  */
+#projectsActive{
+    transform: scale(1.1); 
+    background-color: #11afb4;
+    color: white;
+    font-weight: bolder;
+}
+
+.buttonProjects:hover{
+    background-color: #11afb4; 
+    color: white;
+    transform: scale(1.1); 
+    font-weight: bolder;
+}
+/*
+#mine{
+    margin-left: 250px;
+    margin-right: 400px;
+    margin-top:53px;
+
+}
+*/
+.grid-container {
+    
+    margin-top:150px;
+    margin-left: 120px;
+    margin-right: 130px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    height: 700px;
+    width: 700px;
+
+    
+  
+  }
+
+
+
+
+
+.grid-item-project{
+    display: grid;
+    grid-template-rows: 15% 65%;
+    background-color: silver;
+    border-style: solid;
+    
+    border-color: #11afb4;
+    text-align: left;
+   
+    border: 2px groove #11afb4;
+    margin-right: 20px;
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    font-size: 20px;
+    
+
+}
+
+
+
+.grid-item-project p{
+    text-align: left;
+     margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-item-project button{
+    height: 75px;
+    width: 150px;
+    margin-left: 130px;
+    bottom: 120px;
+    border-radius: 25px;
+    font-size: 20px;
+  /* position: fixed;*/ 
+    /* to improve */
+    
+    
+}
+.grid-item-project button:hover{
+    background-color: #11afb4;
+    
+}
+ #projectTitle{
+     text-align: left;
+     margin-left: 10px;
+     
+ }
+
+
+ #contributed{
+    
+    top: 13%;
+    
+    position: absolute;
+    
+ }
+ .grid-container2 {
+    
+    margin-top:109px;
+    margin-left: 120px;
+    margin-right: 130px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    height: 700px;
+    width: 700px;
+}
+
+/* about me PAGE */
+
+#left-block-aboutme{
+    padding-left: 200px;
+    width: 50%;
+    position: fixed;
+    
+    overflow-y: auto;
+    
+
+}
+
+#right-block-aboutme{
+/*
+    width: 53%;
+    float: right;
+    height: 600px;
+    padding-right: 40px;
+    */
+   
+    padding-left: 10px;
+    margin-right: 400px;
+    
+	position: fixed;
+    left: 43%;
+    overflow-y: auto;
+   
+    
+
+    
+}
+#content-aboutme{
+   
+
+ /*   background-color: silver; /* change color */
+   /* border: solid black 2px; /* change color */
+    margin-right: 100px;
+
+    margin-top: 30px;
+    text-align: center;
+    /* border: black solid; */
+  
+    height: 683px;
+    width: 700px;
+
+}
+
+#personalinfo{
+   width:400px;
+   height: 200px;
+   margin-top:30px;
+/*   background-color: silver; /* change color */
+   border: solid black 2px; /* change color */
+
+    
+    
+}
+#personalinfolist{
+    padding-top:10px;
+    
+}
+#liinfo{
+    margin-top:2px;
+}
+
+ul{
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: 19px;
+}
+
+ul > li  img {
+    height: 20px;
+    width: 20px;
+}
+
+#computacionalskills{
+    width:400px;
+   height: 450px;
+   margin-top:30px;
+ /*  background-color: white; /* change color */
+   border: solid black 2px; /* change color */
+
+
+}
+
+#computacionalul li{
+    margin-top:10px;
+    margin-left: 30px;
+}
+
+#stars{
+    text-align: right;
+    display: inline;
+}
+
+.checked {
+    color: blue;
+  }
+
+.notchecked{
+    color:rgba(0, 0, 0, 0.322);
+}
+
+#content-aboutme ul li p{
+    margin-left:200px;
+    margin-right: 30px;
+   
+
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+
+    top: 0;
+    bottom: 0;
+    left: 50%;
+   
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .container p{
+      font-size: 16px;
+      text-align: left;
+
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgb(148, 179, 207);
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(148, 179, 207)transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: rgb(148, 179, 207);
+    position: relative;
+    border-radius: 6px;
+  }
+
+
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+    .timeline::after {
+      left: 31px;
+    }
+  
+  /* Full-width containers */
+    .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+  /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+  /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+  }
+
+/* Contact Page */
+
+
+/* Contacts On */
+#contactsOn{
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+
+/*Contact me */
+.main{      margin-top: 100px;
+            margin-left: 450px;
+            width: 500px;
+            height: 470px;
+			
+			border-radius: 10px;
+			border: 5px solid grey;
+			border-left: 40px solid grey;
+			box-shadow: 1px 2px 10px #555;
+		}
+		.info{
+			width: 100%;
+			background-color: grey;
+			padding: 7px;
+			text-shadow: 1px 1px 1px #222;
+			color: #fff;
+			font-size: 20px;
+		}
+		.form-box{
+			padding: 20px;
+			background-color: #eee;
+		}
+		label{
+			color: navy;
+			font-size: 18px;
+		}
+		.inp,.msg-box{
+			width: 100%;
+			padding: 10px;
+			margin-top: 4px;
+			margin-bottom: 5px;
+			border-radius: 5px;
+			border: 2px solid #000000;
+			font-weight: bold;
+			color: #1482dc;
+			border-right: 15px solid grey;
+			border-left: 15px solid grey;
+			resize: none;
+		}
+		.msg-box{
+			height: 160px;
+		}
+		.inp:focus,.msg-box:focus{
+			outline: none;
+			border: 2px solid navy;
+			border-right: 15px solid navy;
+			border-left: 15px solid navy;
+		}
+		.sub-btn{
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			margin-top: 5px;
+			border: none;
+			background: linear-gradient(#012ec0,#00baf386);
+			cursor: pointer;
+			color: #fff;
+			font-size: 20px;
+			text-shadow: 1px 1px 1px #444;
+		}
+		.sub-btn:hover{
+			background: linear-gradient(#00baf386,#000000);
+			opacity: 0.8;
+			transition: all ease-out 0.2s;
+		}
+		.sub-btn:focus{
+			outline: none;
+		}
+		@media(max-width: 720px){
+			.main{
+				width: 90%;
+			}
+		}
